@@ -4,11 +4,10 @@
 - 👯 Estou procurando colaborar em Projetos para meu crescimento como programador. 
 - 📫 E-mail de contato: hgmello25@gmail.com.
 
-
-  <div align="center">
+  <div>
     <a href="https://github.com/hugohvm25">
-    <img height="170em" src="https://github-readme-stats.vercel.app/api?username=hugohvm25&show_icons=true&theme=cobalt&include_all_commits=true&count_private=true"/>
-    <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hugohvm25&layout=compact&langs_count=7&theme=cobalt"/>
+    <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hugohvm25&layout=compact&langs_count=7&theme=dracula"/>
+    <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api?username=hugohvm25&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
   </div>
  
   
@@ -34,7 +33,7 @@
   </div>
 
 
- ![snake gif](https://github.com/hugohvm25/hugohvm25/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/seu-usuário-aqui/seu-usuário-aqui/blob/output/github-contribution-grid-snake.svg)
   
 
 
