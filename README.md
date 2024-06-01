@@ -3,6 +3,7 @@
 - 🌱 No momento estou cursando Ciência da Computação.
 - 👯 Estou procurando colaborar em Projetos para meu crescimento como programador. 
 - 📫 E-mail de contato: hgmello25@gmail.com.
+ <picture>
 
   <div align="center">
     <a href="https://github.com/hugohvm25">
@@ -32,8 +33,9 @@
 
   </div>
   
-  <picture>
-    ![Snake animation](https://github.com/hugohvm25/hugohvm25/blob/output/github-contribution-grid-snake.svg)
+  ![Snake animation](https://github.com/hugohvm25/hugohvm25/blob/output/github-contribution-grid-snake.svg)
+
+     
     <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
     <img alt="github-snake" src="github-snake.svg" />
   </picture>
