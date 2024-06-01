@@ -37,8 +37,7 @@
 
   <picture>  
     <source media="(prefers-color-scheme: dark)" srcset="![Snake animation](https://github.com/hugohvm25/hugohvm25/blob/output/github-contribution-grid-snake.svg)" />
-    <img alt="github-snake" src="![Snake animation](https://github.com/hugohvm25/hugohvm25/blob/output/github-contribution-grid-snake.svg)" />
-  </picture>
+     </picture>
   
 
 
