@@ -15,7 +15,7 @@
   
   <div style="display: inline_block"><br>  
    <div>
-    <img src="https://skillicons.dev/icons?i=python,go,sql,postgres,git,vscode,bootstrap,docker,html" />
+    <img src="https://skillicons.dev/icons?i=python,go,mysql,postgres,git,vscode,bootstrap,docker,html" />
    </div>      
   </div>
 
