@@ -53,11 +53,3 @@
 </div>
 
 ###
-
-<br clear="both">
-
-<div align="center">
-  <img src="https://profile-counter.glitch.me/hugohvm25/count.svg?"  />
-</div>
-
-###
