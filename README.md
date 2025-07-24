@@ -20,7 +20,9 @@ Meu foco atual nos estudos está voltado para JavaScript, Golang e Python, busca
 
 ---
 
+<div align="center">
 <img src="https://raw.githubusercontent.com/hugohvm25/hugohvm25/output/snake.svg" alt="Snake animation" />
+</div>
 
 ---
 
