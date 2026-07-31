@@ -30,10 +30,10 @@ Meu foco atual nos estudos está voltado para JavaScript, Golang e Python, busca
 
 ## Tecnologias e linguagens 💻
 
-[![My Skills](https://skillicons.dev/icons?i=python,go,php,js,html,css)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=python,go,php,js,nodejs,html,css)](https://skillicons.dev)
 
 ### 🚀 Frameworks e bibliotecas
-[![My Skills](https://skillicons.dev/icons?i=flutter,bootstrap,nodejs,mysql,postgres)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=flutter,bootstrap,mysql,postgres)](https://skillicons.dev)
 
 ### 🛠️ Ferramentas de desenvolvimento
 [![My Skills](https://skillicons.dev/icons?i=git,github,notion,vscode,androidstudio)](https://skillicons.dev)
