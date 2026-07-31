@@ -42,8 +42,12 @@ Meu foco atual nos estudos está voltado para JavaScript, Golang e Python, busca
 ---
 <br clear="both">
 
+
 <div align="center">
-  <img src="https://profile-counter.deno.dev/hugohvm25/count.svg" alt="Key:: Visitor's Count" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=hugohvm25.visitor-badge&left_text=Visitors&left_color=%23595959&right_color=%23215D1F&format=true&logo=github&radius=5&height=30" alt="Visitor badge"/>
+
 </div>
+
+
 
 ###
