@@ -1,14 +1,14 @@
 
 ## Olá! Sou Hugo 👋
 
-Desenvolvedor em formação, comprometido a criar soluções modernas e funcionais. 
-Meu foco atual nos estudos está voltado para JavaScript, Golang e Python, buscando aplicar e tranformar os conhecimentos adquiridos em projetos reais durante minha graduação em Ciência da Computação.
+Desenvolvedor comprometido a criar soluções modernas e funcionais. 
+Buscando aplicar e tranformar os conhecimentos adquiridos em projetos reais.
 
 
 ## Sobre mim
 
-- 🎓 Graduando em Ciência da Computação no UNIFESO 
-- 📚 Estudando JavaScript, Go, Python, e desenvolvimento fullstack 
+- 🎓 Graduado em Ciência da Computação no UNIFESO.
+- 📚 Estudando JavaScript, Go, Python.
 
 
 <p align="center">
