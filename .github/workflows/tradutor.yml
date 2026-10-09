@@ -1,23 +1,22 @@
-# .github/workflows/translate.yml
-name: Translate Readme
+name: Translate README
 
 on:
-    push:
-        branches: ['**']
+  push:
+    branches:
+      - main
 
 jobs:
-    translate:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout
-              uses: actions/checkout@v3
-              with:
-                fetch-depth: 3
+  translate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Permite que a Action faça commit e push no repositório
 
-            - name: Auto Translate
-              uses: Lin-jun-xiang/action-translate-readme@v2 # Based on the tag
-              with:
-                token: ${{ secrets.Action_Bot }} # Based on step2 name
-                # zhipuai: ${{ secrets.zhipuai_api_key }} # Optional: Based on step3
-                # openai: ${{ secrets.openai_api_key }}  # Optional: Based on step3
-                langs: "en,fr" # You can define any langs
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Translate README
+        uses: Lin-jun-xiang/action-translate-readme@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          langs: en,fr
