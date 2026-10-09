@@ -1,19 +1,23 @@
-name: Auto Translate README
+# .github/workflows/translate.yml
+name: Translate Readme
 
 on:
-  push:
-    paths:
-      - 'README.md' # Executa quando o README principal for alterado
+    push:
+        branches: ['**']
 
 jobs:
-  translate:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout do Repositório
-        uses: actions/checkout@v4
+    translate:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
+              with:
+                fetch-depth: 3
 
-      - name: Traduzir README
-        uses: ephraimduncan/translate-readme@v1 # Exemplo de Action de tradução
-        with:
-          LANG: 'es,fr,pt-br' # Idiomas de destino desejados
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            - name: Auto Translate
+              uses: Lin-jun-xiang/action-translate-readme@v2 # Based on the tag
+              with:
+                token: ${{ secrets.Action_Bot }} # Based on step2 name
+                zhipuai: ${{ secrets.zhipuai_api_key }} # Optional: Based on step3
+                openai: ${{ secrets.openai_api_key }}  # Optional: Based on step3
+                langs: "en,fr" # You can define any langs
