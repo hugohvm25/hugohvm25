@@ -16,7 +16,7 @@ jobs:
           node-version: 12.x
       # ISO Langusge Codes: https://cloud.google.com/translate/docs/languages  
 
-      - name: Translate README
+      - name: Adding README - English
         uses: dephraiim/translate-readme@main
         with:
           LANGUAGES: en
