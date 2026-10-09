@@ -15,8 +15,8 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Translate README
-        uses: dtinth/translate-readme-action@v1
+      - name: Auto Translate README
+        uses: aaronai/action-translate-readme@v1
         with:
-          target_language: en, fr
+          target_language: 'en'
           github_token: ${{ secrets.GITHUB_TOKEN }}
