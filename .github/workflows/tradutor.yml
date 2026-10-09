@@ -14,9 +14,10 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-
-      - name: Auto Translate README
-        uses: aaronai/action-translate-readme@v1
         with:
-          target_language: 'en'
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0 # Evita erro de conflito no push
+
+      - name: Translate README to English
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: en
