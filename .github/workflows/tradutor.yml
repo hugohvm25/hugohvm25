@@ -9,14 +9,14 @@ jobs:
   translate:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Permite que a Action faça commit e push no repositório
+      contents: write
 
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
 
       - name: Translate README
-        uses: Lin-jun-xiang/action-translate-readme@v2
+        uses: joshuacurtiss/translate-readme@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          langs: en,fr
+          target_lang: en, fr
+          github_token: ${{ secrets.GITHUB_TOKEN }}
