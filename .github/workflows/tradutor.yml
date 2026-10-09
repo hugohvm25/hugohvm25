@@ -1,27 +1,19 @@
-name: Translate README
+name: Auto Translate README
 
 on:
   push:
-    branches:
-      - main
-      - master
+    paths:
+      - 'README.md' # Executa quando o README principal for alterado
+
 jobs:
-  build:
+  translate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Setup Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 12.x
-      # ISO Langusge Codes: https://cloud.google.com/translate/docs/languages  
+      - name: Checkout do Repositório
+        uses: actions/checkout@v4
 
-      - name: Adding README - English
-        uses: dephraiim/translate-readme@main
+      - name: Traduzir README
+        uses: ephraimduncan/translate-readme@v1 # Exemplo de Action de tradução
         with:
-          LANGUAGES: en
-
-      - name: Adding README - French
-        uses: dephraiim/translate-readme@main
-        with:
-          LANG: fr
+          LANG: 'es,fr,pt-br' # Idiomas de destino desejados
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
