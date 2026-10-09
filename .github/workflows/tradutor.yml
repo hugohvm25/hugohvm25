@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Translate README
-        uses: joshuacurtiss/translate-readme@v1
+        uses: dtinth/translate-readme-action@v1
         with:
-          target_lang: en, fr
+          target_language: en, fr
           github_token: ${{ secrets.GITHUB_TOKEN }}
