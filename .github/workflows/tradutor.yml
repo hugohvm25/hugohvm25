@@ -4,20 +4,19 @@ on:
   push:
     branches:
       - main
-
+      - master
 jobs:
-  translate:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
         with:
-          fetch-depth: 0 # Evita erro de conflito no push
+          node-version: 24
+      # ISO Langusge Codes: https://cloud.google.com/translate/docs/languages  
 
-      - name: Translate README to English
+      - name: Adding README - French
         uses: dephraiim/translate-readme@main
         with:
-          LANG: en
+          LANG: fr
