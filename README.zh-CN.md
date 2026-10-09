@@ -9,7 +9,7 @@
 
 🎓 Centro Universitário Serra dos Órgãos 计算机科学家 - UNIFESO
 
-👩‍💻 我目前在远程教育部门 - UNIFESO 担任技术分析师
+👩‍💻 Atualmente eu trabalho como Analista de Tecnologia na Direção de Educação a Distância - UNIFESO
 
 🔎我也很好奇——科技
 
