@@ -14,7 +14,7 @@
 
 🔎 Também sou curioso sobre - Tecnologia
 
-✒️ Eu gosto de no meu tempo livre - Animes, Jogos Eletronicos, Manutenção de Equipamentos, Acampar;
+✒️ Eu gosto de fazer no meu tempo livre - Animes, Jogos Eletrônicos, Manutenção de Equipamentos, Acampar;
 
 
 
